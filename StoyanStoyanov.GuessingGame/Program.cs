@@ -13,7 +13,7 @@ namespace StoyanStoyanov.GuessingGame
         {
             Random randNum = new Random();
 
-            //Initial range can be modified per requirements.
+            //Initial range can be modified per requirements;
             int num1 = randNum.Next(0, 50);
 
             bool status = false;
@@ -43,6 +43,7 @@ namespace StoyanStoyanov.GuessingGame
 
             Console.WriteLine("Thank you for playing the guessing game!");
             Console.Write("Press key to finish!");
+            //Any key inserted will close the command prompt;
             Console.ReadKey(true);
         }
     }
